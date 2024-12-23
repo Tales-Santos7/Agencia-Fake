@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navBar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo h1 {
+    font-family: "Lobster", cursive;
+    color: #180f4a;
+    font-size: 34px;
+}
+
+.logo {
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+    transition: 0.2s;
+}
+
+#btn-FaleConosco {
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#btn-FaleConosco:hover {
+    border: none;
+    background-color: #ff2978;
+    transition: 0.2s;
+}
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headLine h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headLine {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headLine p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #ff2978;
+    padding: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #180f4a;
+    transition: 0.3s;
+
+}
+
+.img-headLine {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section {
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 5%;
+    display: inline-block;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-2 {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-3 {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: #ffffff;
+    background-color: #ff2978;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+.card-2:hover {
+    color: #ffffff;
+    background-color: #ff2978;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+.card-3:hover {
+    color: #ffffff;
+    background-color: #ff2978;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+
+/* Configuração padrão */
+.card .img-icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/pc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+.card:hover .img-icon {
+    background-image: url('../img/pc-branco.png');
+}
+
+/* Configuração padrão */
+.card-2 .img-icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/smartphone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+.card-2:hover .img-icon {
+    background-image: url('../img/smartphone-branco.png');
+}
+
+/* Configuração padrão */
+.card-3 .img-icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('../img/marketing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+.card-3:hover .img-icon {
+    background-image: url('../img/marketing-branco.png');
+}
+
+.img-icon {
+    margin-left: 38%;
+}
+
+footer {
+    margin-top: 100px;
+    height: 390px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, #111111);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.logo-rodape a {
+    text-decoration: none;
+}
+
+.agencia {
+    font-family: "Lobster", cursive;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+
+.reservados {
+    font-weight: 400;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
