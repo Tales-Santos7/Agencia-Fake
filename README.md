@@ -8,7 +8,7 @@ Este projeto é uma página de apresentação com design responsivo e moderno, i
 
 ### Captura do projeto
 
-[<img src="./src/img/agenciaGIF" alt="gif da dela inicial do projeto 'Agência Fake'">]
+[<img src="./src/img/agenciaGIF.gif" alt="gif da dela inicial do projeto 'Agência Fake'">]
 
 ### Links
 
